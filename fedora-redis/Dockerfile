@@ -1,5 +1,6 @@
 FROM fedora
-MAINTAINER Mrunal Patel <mpatel@redhat.com>
+
+MAINTAINER Madhu <Madhusudhana.rao@teradyne.com>
 
 RUN yum install redis -y && yum clean all
 
